@@ -1,0 +1,148 @@
+﻿@{
+    ViewData["Title"] = "OrderingGuide";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link href="~/css/order.css" rel="stylesheet" asp-append-version="true" />
+}
+
+<!-- Page Preloder -->
+<div id="preloder">
+    <div class="loader"></div>
+</div>
+
+<div class="page-header">
+    <div class="container">
+        <nav class="breadcrumb">
+            <a href="#">Trang Chủ</a>
+            <span> > </span>
+            <span>Hình thức vận chuyển</span>
+        </nav>
+    </div>
+</div>
+
+<div class="container">
+    <section class="mb-60">
+        <div class="ck-content">
+            <p style="background-color: rgb(255, 255, 255); color: rgb(62, 63, 49); font-family: HelveticaNeue-Light; font-size: 14px; font-style: normal; font-weight: 400; line-height: 1.5; margin: 0px 0px 10px; text-align: justify; word-spacing: 0px;">
+                <span style="color: rgb(0, 128, 0);">
+                    <span style="font-family: &quot;times new roman&quot;, times, serif; font-size: 14pt; line-height: 1.5; margin: 0px;">
+                        <strong style="font-family: HelveticaNeue; line-height: 1.5; margin: 0px;">SHOP SÁCH NGOẠI NGỮ HÀ NỘI</strong>
+                    </span>
+                </span>
+                <span style="font-family: &quot;times new roman&quot;, times, serif; font-size: 14pt; line-height: 1.5; margin: 0px;">
+                    áp dụng
+                    <strong style="font-family: HelveticaNeue; line-height: 1.5; margin: 0px;">hình thức vận chuyển</strong> đơn hàng như sau:
+                </span>
+            </p>
+            <p style="background-color: rgb(255, 255, 255); color: rgb(62, 63, 49); font-family: HelveticaNeue-Light; font-size: 14px; font-style: normal; font-weight: 400; line-height: 1.5; margin: 0px 0px 10px; text-align: justify; word-spacing: 0px;">
+                <span style="color: rgb(0, 0, 255);">
+                    <span style="font-family: &quot;times new roman&quot;, times, serif; font-size: 14pt; line-height: 1.5; margin: 0px;">
+                        <strong style="font-family: HelveticaNeue; line-height: 1.5; margin: 0px;">1. Khách hàng ở nội thành </strong>
+                    </span>
+                </span>
+                <span style="color: rgb(255, 0, 0);">
+                    <span style="font-family: &quot;times new roman&quot;, times, serif; font-size: 14pt; line-height: 1.5; margin: 0px;">
+                        <strong style="font-family: HelveticaNeue; line-height: 1.5; margin: 0px;">HÀ NỘI:</strong>
+                    </span>
+                </span>
+                <span style="font-family: &quot;times new roman&quot;, times, serif; font-size: 14pt; line-height: 1.5; margin: 0px;">
+                    Vận chuyển trực tiếp, thời gian giao hàng trong vòng 24h kể từ khi xác nhận đơn hàng.
+                </span>
+            </p>
+            <p style="background-color: rgb(255, 255, 255); color: rgb(62, 63, 49); font-family: HelveticaNeue-Light; font-size: 14px; font-style: normal; font-weight: 400; line-height: 1.5; margin: 0px 0px 10px; text-align: justify; word-spacing: 0px;">
+                <span style="font-family: &quot;times new roman&quot;, times, serif; font-size: 14pt; line-height: 1.5; margin: 0px;">– Đơn hàng </span>
+                <span style="color: rgb(255, 0, 0);">
+                    <span style="font-family: &quot;times new roman&quot;, times, serif; font-size: 14pt; line-height: 1.5; margin: 0px;">dưới 300.000đ</span>
+                </span>
+                <span style="font-family: &quot;times new roman&quot;, times, serif; font-size: 14pt; line-height: 1.5; margin: 0px;">phí vận chuyển </span>
+                <span style="color: rgb(255, 0, 0);">
+                    <span style="font-family: &quot;times new roman&quot;, times, serif; font-size: 14pt; line-height: 1.5; margin: 0px;">30.000đ</span>&nbsp;
+                </span>
+            </p>
+            <p style="background-color: rgb(255, 255, 255); color: rgb(62, 63, 49); font-family: HelveticaNeue-Light; font-size: 14px; font-style: normal; font-weight: 400; line-height: 1.5; margin: 0px 0px 10px; text-align: justify; word-spacing: 0px;">
+                <span style="font-family: &quot;times new roman&quot;, times, serif; font-size: 14pt; line-height: 1.5; margin: 0px;">– Đơn hàng </span>
+                <span style="color: rgb(255, 0, 0);">
+                    <span style="font-family: &quot;times new roman&quot;, times, serif; font-size: 14pt; line-height: 1.5; margin: 0px;">từ 300.0000đ</span>
+                </span>
+                <span style="font-family: &quot;times new roman&quot;, times, serif; font-size: 14pt; line-height: 1.5; margin: 0px;">trở lên, </span>
+                <span style="color: rgb(255, 0, 0);">
+                    <span style="font-family: &quot;times new roman&quot;, times, serif; font-size: 14pt; line-height: 1.5; margin: 0px;">
+                        <strong style="font-family: HelveticaNeue; line-height: 1.5; margin: 0px;">miễn phí vận chuyển.</strong>
+                    </span>&nbsp;
+                </span>
+            </p>
+            <p style="background-color: rgb(255, 255, 255); color: rgb(62, 63, 49); font-family: HelveticaNeue-Light; font-size: 14px; font-style: normal; font-weight: 400; line-height: 1.5; margin: 0px 0px 10px; text-align: justify; word-spacing: 0px;">
+                <span style="color: rgb(0, 0, 255);">
+                    <span style="font-family: &quot;times new roman&quot;, times, serif; font-size: 14pt; line-height: 1.5; margin: 0px;">
+                        <strong style="font-family: HelveticaNeue; line-height: 1.5; margin: 0px;">2. Khách hàng ở </strong>
+                    </span>
+                </span>
+                <span style="color: rgb(255, 0, 0);">
+                    <span style="font-family: &quot;times new roman&quot;, times, serif; font-size: 14pt; line-height: 1.5; margin: 0px;">
+                        <strong style="font-family: HelveticaNeue; line-height: 1.5; margin: 0px;">Ngoại Thành Hà Nội</strong>
+                    </span>
+                </span>
+                <span style="color: rgb(0, 0, 255);">
+                    <span style="font-family: &quot;times new roman&quot;, times, serif; font-size: 14pt; line-height: 1.5; margin: 0px;">
+                        <strong style="font-family: HelveticaNeue; line-height: 1.5; margin: 0px;">và </strong>
+                    </span>
+                </span>
+                <span style="color: rgb(255, 0, 0);">
+                    <span style="font-family: &quot;times new roman&quot;, times, serif; font-size: 14pt; line-height: 1.5; margin: 0px;">
+                        <strong style="font-family: HelveticaNeue; line-height: 1.5; margin: 0px;">tỉnh thành khác</strong>
+                    </span>
+                </span>
+                <span style="color: rgb(0, 0, 255);">
+                    <span style="font-family: &quot;times new roman&quot;, times, serif; font-size: 14pt; line-height: 1.5; margin: 0px;">
+                        <strong style="font-family: HelveticaNeue; line-height: 1.5; margin: 0px;">:</strong>
+                    </span>
+                </span>
+                <span style="font-family: &quot;times new roman&quot;, times, serif; font-size: 14pt; line-height: 1.5; margin: 0px;">
+                    Chọn 1 trong 2 hình thức
+                </span>
+            </p>
+            <div style="background-color: rgb(255, 255, 255); color: rgb(62, 63, 49); font-family: HelveticaNeue-Light; font-size: 14px; font-style: normal; font-weight: 400; line-height: 1.5; margin: 0px 0px 10px; text-align: justify; word-spacing: 0px;">
+                <p><span style="color: rgb(0, 0, 255);"><strong>A. Gửi thường:</strong></span><span>3-7 ngày làm việc (không kể thứ 7, chủ nhật, ngày nghỉ lễ)</span></p>
+                <p><span>– Đơn hàng <span style="color: rgb(255, 0, 0);">dưới 350.000đ</span> phí vận chuyển <span style="color: rgb(255, 0, 0);">30.000đ</span></span></p>
+                <p><span>– Đơn hàng <span style="color: rgb(255, 0, 0);">từ 350.000đ</span> trở lên, <span style="color: rgb(255, 0, 0);"><strong>miễn phí vận chuyển</strong>.</span></span></p>
+                <p><span style="color: rgb(0, 0, 255);"><strong>B. Gửi nhanh:</strong></span><span>1-3 ngày làm việc (không kể thứ 7, chủ nhật, ngày nghỉ lễ) hỗ trợ 50% phí gửi hàng.</span></p>
+                <p><em><i><span>Bảng chi tiết phí chuyển phát nhanh:</span></i></em></p>
+                <figure class="table table-price">
+                    <table border="2" width="780" style="background-color: rgb(255, 255, 255); border-color: rgb(5, 247, 134); color: rgb(62, 63, 49); font-family: HelveticaNeue-Light; font-size: 19px; font-style: normal; font-weight: 400; height: 264px; line-height: 1.5; margin: 0px; word-spacing: 0px;">
+                        <tbody>
+                            <tr>
+                                <td style="text-align: center; width: 325px;"><strong>Khối lượng</strong></td>
+                                <td style="text-align: center; width: 417px;"><strong>Phí vận chuyển (VNĐ)</strong></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;"><span>Dưới 500 g</span></td>
+                                <td style="text-align: center;"><span>45,000</span></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;"><span>500 – 999 g</span></td>
+                                <td style="text-align: center;"><span>55,000</span></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;"><span>1000 – 1499 g</span></td>
+                                <td style="text-align: center;"><span>65,000</span></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;"><span>1500 – 1999 g</span></td>
+                                <td style="text-align: center;"><span>75,000</span></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center; width: 325px;"><span>Mỗi 500g tiếp theo</span></td>
+                                <td style="text-align: center; width: 417px;"><span>5,000</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </figure>
+                <p><em><i>* Tất cả các đơn hàng đều được giao trực tiếp tại địa chỉ của Khách hàng.</i></em></p>
+                <p><em><i>* Thời gian giao hàng tối đa là 3 ngày làm việc.</i></em></p>
+            </div>
+
+        </div>
+    </section>
+</div>

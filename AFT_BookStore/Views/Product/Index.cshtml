@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section Styles {
+    <link href="~/css/product.css" rel="stylesheet" asp-append-version="true" />
+}
+
+<!-- Page Preloder -->
+<div id="preloder">
+    <div class="loader"></div>
+</div>
+
+<!--Page Header-->
+<partial name="PageHeader" />
+<!--Product details-->
+<partial name="Detail" />
+<!--Product Relate-->
+<partial name="Relate" />

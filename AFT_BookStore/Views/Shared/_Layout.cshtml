@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - AFT_BookStore</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/AFT_BookStore.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/loader.css" asp-append-version="true" />
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" asp-append-version="true">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" asp-append-version="true" />
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+    <header class="header height-96">
+        <div class="fixed-top bg-light height-96">
+            <div class="container d-flex justify-content-between align-items-center height-96">
+                <div class="flex-center gap-40">
+                    <div class="header_logo">
+                        <a href="/"><img src="https://mixivivu.com/_next/image?url=%2Fblack-logo.png&w=384&q=75" alt="logo" /></a>
+                    </div>
+                    <div class="flex-center gap-24 fw-medium text-gray-900 header-active">
+                        <a href="/">Trang chủ</a>
+                        <a href="/lien-he">Về chúng tôi</a>
+                        <a href="/cua-hang">Cửa hàng</a>
+                        <a href="/bai-viet">Bài viết</a>
+                        <div class="dropdown">
+                            <p class="support-link mb-0">Hỗ trợ khách hàng</p>
+                            <i class="fas fa-angle-down"></i>
+                            <div class="dropdown-content">
+                                <a href="/huong-dan-dat-hang">Hướng dẫn đặt hàng</a>
+                                <a href="/hinh-thuc-van-chuyen">Hình thức vận chuẩn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_active d-flex align-items-center gap-32">
+                    <a href="/gio-hang"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="/dang-nhap" class="login_btn button_button button_button-sm button_button-color">
+                        <p class="mb-0 sm">Đăng nhập</p>
+                    </a>
+                    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+                </div>
+            </div>
+            <div class="flex-center gap-24 fw-medium text-gray-900 header-active sm-display">
+                <a href="#">Trang chủ</a>
+                <a href="#">Về chúng tôi</a>
+                <a href="#">Sản phẩm</a>
+                <a href="#">Bài viết</a>
+                <a href="#">Hỗ trợ khách hàng</a>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+        @RenderBody()
+    </main>
+
+    <footer id="footer">
+        <section class="section-padding-60">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 sm-mt-12">
+                        <div class="footer_details">
+                            <div class="logo">
+                                <a href="#"><img src="https://hanoibookstore.com/storage/logo-book.png" alt="Alternate Text" /></a>
+                            </div>
+                            <h4 class="mt-20 mb-10 fw-semibold">Liên hệ</h4>
+                            <p><strong>Địa chỉ: </strong>Bách Khoa - Hai Bà Trưng - Hà Nội</p>
+                            <p><strong>Số điện thoại: </strong>0982768246</p>
+                            <p><strong>Email: </strong>Tuancuongbkpro@gmail.com</p>
+                            <p><strong>Thời gian làm việc: </strong>08:00 - 17:00, Thứ 2 - Thứ 7</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 sm-mt-12">
+                        <h5 class="detail-sm">Danh mục sản phẩm</h5>
+                        <ul class="list-product d-flex flex-column gap-12 mt-3">
+                            <li><a href="#">Sách chuyên ngành</a></li>
+                            <li><a href="#">Sách IT</a></li>
+                            <li><a href="#">Sách luyện thi</a></li>
+                            <li><a href="#">Sách ngoại ngữ</a></li>
+                            <li><a href="#">Sách tiếng hàn</a></li>
+                            <li><a href="#">Sách tiếng nhật</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-3 sm-mt-12">
+                        <h5 class="detail-sm">Chính sách</h5>
+                        <ul class="list-product d-flex flex-column gap-12 mt-3">
+                            <li><a href="#">Điều khoản & quy định</a></li>
+                            <li><a href="#">Chính sách đổi trả</a></li>
+                            <li><a href="#">Chính sách vận chuyển</a></li>
+                            <li><a href="#">Chính sách bảo mật</a></li>
+                            <li><a href="#">Hướng dẫn thanh toán</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 sm-mt-12">
+                        <h5 class="mb-20">Thanh toán</h5>
+                        <div>
+                            <div>
+                                <p class="mb-20">Hỗ trợ thanh toán an toàn qua các cổng</p>
+                                <img class="w-218" src="https://hanoibookstore.com/storage/pay.png" alt="Alternate Text" />
+                            </div>
+                        </div>
+                        <h5 class="mt-20 mb-10 fw-semibold">Theo dõi chúng tôi</h5>
+                        <div>
+                            <a class="link-icon facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a class="link-icon twitter" href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a class="link-icon instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a class="link-icon youtube" href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.sm-display');
+            if (menu.style.display === 'flex') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'flex';
+            }
+        }
+
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

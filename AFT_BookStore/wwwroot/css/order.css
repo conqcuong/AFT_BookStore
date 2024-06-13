@@ -1,0 +1,20 @@
+﻿
+
+/**/
+.ck-content p {
+    font-size: 19px;
+}
+
+.table-price table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-price table, th, td {
+    border: 1px solid black;
+}
+
+.table-price th, td {
+    padding: 8px;
+    text-align: center;
+}

@@ -1,0 +1,120 @@
+﻿/*Featured*/
+.rating i {
+    color: #fb6e2e;
+}
+
+.product-price-cover {
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+    .product-price-cover h5 {
+        color: #0361A9;
+        font-size: 30px;
+    }
+
+.input-group .btn {
+    padding: 5px 10px;
+}
+
+    .input-group .btn i {
+        font-size: 12px;
+        color: #000000;
+    }
+
+.product-meta {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    margin-top: 50px;
+}
+
+.product-sidebar {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.widget-header {
+    border-bottom: 1px solid #eee
+}
+
+.single-post {
+    display: flex;
+    gap: 10px;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+.content h5 {
+    font-size: 16px;
+    color: #3F81EB;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.price {
+    font-size: 14px;
+    color: #4F5D77;
+    font-weight: 500;
+}
+
+.rating_wrap .rating {
+    display: flex;
+}
+
+    .rating_wrap .rating .fa-star {
+        font-size: 12px;
+        gap: 3px;
+    }
+
+.button_button-color {
+    background-color: #0361A9;
+    border: 1px solid #0361A9;
+    color: #ffffff;
+    fill: #0e4f4f;
+}
+
+    .button_button-color:hover {
+        background-color: #3F81EB;
+        color: #ffffff;
+    }
+
+
+/**/
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    border-bottom: 2px solid #0361A9 !important;
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #0361A9 !important;
+}
+
+.nav-link {
+    background: transparent;
+    border: none;
+    color: #90908E;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.6rem 0 !important;
+    display: block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .detail-extralink {
+        align-items: start !important;
+    }
+}

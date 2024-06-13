@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section Styles {
+    <link href="~/css/home.css" rel="stylesheet" asp-append-version="true" />
+}
+
+<!-- Page Preloder -->
+<div id="preloder">
+    <div class="loader"></div>
+</div>
+
+<div>
+    <!-- HOME BANNER -->
+    <partial name="Slide" />
+    <!-- HOME Featured Catelogry-->
+    <partial name="Featured" />
+    <!-- HOME Product -->
+    <partial name="Product" />
+    <!-- HOME Banner -->
+    <partial name="Banner" />
+    <!-- HOME FeaturedProducts -->
+    <partial name="FeaturedProducts" />
+    <!-- HOME POST -->
+    <partial name="Posts" />
+
+</div>

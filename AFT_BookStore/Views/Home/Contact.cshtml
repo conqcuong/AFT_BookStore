@@ -1,0 +1,146 @@
+﻿@section Styles {
+    <link href="~/css/home.css" rel="stylesheet" asp-append-version="true" />
+}
+
+<!-- Page Preloder -->
+<div id="preloder">
+    <div class="loader"></div>
+</div>
+
+<section class="contact-box-section mt-60">
+    <div class="container">
+        <div class="row g-lg-5 g-3 mb-30">
+            <div class="col-lg-6">
+                <div class="left-sidebar-box">
+                    <div class="row">
+                        <div class="col-xl-12 mb-20">
+                            <div class="contact-image">
+                                <img src="https://shop-plus.tmdt247.vn/assets/images/inner-page/contact-us.png" alt="Alternate Text" />
+                            </div>
+                        </div>
+                        <div class="col-xl-12 mt-20">
+                            <div class="contact-title">
+                                <h3>Thông tin liên hệ</h3>
+                            </div>
+
+                            <div class="contact-detail mt-20">
+                                <div class="row g-4">
+                                    <div class="col-xxl-6 col-lg-12 col-sm-6">
+                                        <div class="contact-detail-box">
+                                            <div class="contact-icon">
+                                                <i class="fas fa-mobile-alt"></i>
+                                            </div>
+                                            <div class="contact-detail-title">
+                                                <h4>Số điện thoại</h4>
+                                            </div>
+                                            <a href="tel:0976 888 438" class="contact-detail-contain">
+                                                <p>0976 888 438</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xxl-6 col-lg-12 col-sm-6">
+                                        <div class="contact-detail-box">
+                                            <div class="contact-icon">
+                                                <i class="fa-solid fa-phone"></i>
+                                            </div>
+                                            <div class="contact-detail-title">
+                                                <h4>Hotline</h4>
+                                            </div>
+                                            <a href="tel:0976 180 136" class="contact-detail-contain">
+                                                <p>0976 180 136</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xxl-6 col-lg-12 col-sm-6">
+                                        <div class="contact-detail-box">
+                                            <div class="contact-icon">
+                                                <i class="fa-solid fa-envelope"></i>
+                                            </div>
+                                            <div class="contact-detail-title">
+                                                <h4>Email</h4>
+                                            </div>
+                                            <a href="mailto:cskh@h2aits.com" class="contact-detail-contain">
+                                                <p style="word-break: break-word;">cskh@h2aits.com</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xxl-12 col-lg-12 col-md-12 col-sm-12">
+                                        <div class="contact-detail-box">
+                                            <div class="contact-icon">
+                                                <i class="fa-solid fa-location-dot"></i>
+                                            </div>
+                                            <div class="contact-detail-title">
+                                                <h4>Địa chỉ</h4>
+                                            </div>
+                                            <div class="contact-detail-contain">
+                                                <p>40/19 Nguyễn Du, Phường Quang Vinh, Thành phố Biên Hòa, Tỉnh Đồng Nai</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="title d-xxl-none d-block">
+                    <h2>Liên hệ chúng tôi</h2>
+                </div>
+                <form id="form_data" class="right-sidebar-box needs-validation" method="post" action="/lien-he">
+                    <div class="row">
+                        <div class="col-xxl-12 col-lg-12 col-sm-6">
+                            <div class="mb-md-4 mb-3 custom-form">
+                                <label class="form-label" for="title">Tiêu đề <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" maxlength="100" placeholder="Nhập tiêu đề" required="" id="title" name="title" value="">
+                                <span class="invalid-feedback field-validation-valid" data-valmsg-for="title" data-valmsg-replace="true"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-xxl-6 col-lg-12 col-sm-6">
+                            <div class="mb-md-4 mb-3 custom-form">
+                                <label class="form-label" for="name">Họ và Tên<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" maxlength="50" placeholder="Nhập họ và tên của bạn" required="" id="name" name="name" value="">
+                                <span class="invalid-feedback field-validation-valid" data-valmsg-for="name" data-valmsg-replace="true"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-xxl-6 col-lg-12 col-sm-6">
+                            <div class="mb-md-4 mb-3 custom-form">
+                                <label class="form-label" for="phoneNumber">Số điện thoại<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" maxlength="11" onkeypress="return IsNumberKey(event)" placeholder="Nhập số điện thoại" required="" id="phoneNumber" name="phoneNumber" value="">
+                                <span class="invalid-feedback field-validation-valid" data-valmsg-for="phoneNumber" data-valmsg-replace="true"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-xxl-12 col-lg-12 col-sm-6">
+                            <div class="mb-md-4 mb-3 custom-form">
+                                <label class="form-label" for="email">Email</label>
+                                <input type="email" class="form-control" maxlength="100" placeholder="Nhập địa chỉ email" id="email" name="email" value="">
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="mb-md-4 mb-3 custom-form">
+                                <label class="form-label" for="detail">Nội dung</label>
+                                <textarea class="form-control" placeholder="Nhập nội dung" rows="6" required="" maxlength="1000" id="detail" name="detail"></textarea>
+                                <span class="invalid-feedback field-validation-valid" data-valmsg-for="detail" data-valmsg-replace="true"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn">
+                        <span class="ladda-label">
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i> Gửi
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="map_main">
+    <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.0469935402384!2d106.80698631121194!3d10.959822889155333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174dbfdae78ab15%3A0x7303029d60527f23!2zNDAgTmd1eeG7hW4gRHUsIFF1YW5nIFZpbmgsIFRow6BuaCBwaOG7kSBCacOqbiBIw7JhLCDEkOG7k25nIE5haSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1718077003478!5m2!1svi!2s" width="250" height="500" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+    </div>
+</section>

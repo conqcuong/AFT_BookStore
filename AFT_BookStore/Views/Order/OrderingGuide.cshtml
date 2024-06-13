@@ -1,0 +1,110 @@
+﻿@{
+    ViewData["Title"] = "OrderingGuide";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link href="~/css/order.css" rel="stylesheet" asp-append-version="true" />
+    <style>
+        .ck-content {
+            font-family: "Times New Roman", times, serif;
+        }
+    </style>
+}
+
+<!-- Page Preloder -->
+<div id="preloder">
+    <div class="loader"></div>
+</div>
+
+<div class="page-header">
+    <div class="container">
+        <nav class="breadcrumb">
+            <a href="#">Trang Chủ</a>
+            <span> > </span>
+            <span>Hướng dẫn đặt hàng</span>
+        </nav>
+    </div>
+</div>
+
+<div class="container">
+    <section class="mb-60">
+        <div class="ck-content">
+
+            <p>
+                <span><strong>Đến với</strong></span>
+                <span><strong style="color: #009600;">HaNoiBookStore.</strong></span> <span style="color: #ff9900;">com</span>
+                <span>quý khách có thể dễ dàng chọn được đầu sách mình mong muốn. Và đặt hàng trực tuyến với thao tác rất đơn giản sau đây:</span>
+            </p>
+
+            <p><strong style="color: rgb(0, 0, 255);">1. Chọn sản phẩm cần mua.</strong></p>
+            <p>
+                – Khách hàng lựa chọn xem sản phẩm cần mua, hệ thống
+                <strong style="color: #009600;">HaNoiBookStore.</strong><strong style="color: #ff9900;">com</strong>
+                cung cấp cho khách hàng các thông tin chi tiết nhất liên quan đến cuốn sách như:
+            </p>
+            <p>
+                Nhà xuất bản, năm xuất bản, mục lục sách giúp khách hàng có sự lựa chọn tốt nhất. Ngoài ra hệ thống
+                <strong style="color: #009600;">HaNoiBookStore.</strong><strong style="color: #ff9900;">com</strong>
+                còn cho phép khách hàng xem trước một số trang sách qua hình ảnh.
+            </p>
+            <p>
+                – Sau khi xem xong các thông tin của sản phẩm, Qúy khách nhấn vào nút
+                <strong style="color: rgb(255, 0, 0);">“MUA NGAY”</strong>
+                để mua sách và đi đến thanh toán hoặc
+                <strong style="color: rgb(255, 0, 0);">“THÊM VÀO GIỎ HÀNG”</strong>
+                nếu quý khách muốn mua thêm sản phẩm khác sau đó tiếp tục chọn sách.
+            </p>
+
+
+            <p><strong style="color: rgb(0, 0, 255);">2. Kiểm tra giỏ hàng.</strong></p>
+            <p>– Khách hàng nhấn vào mục <strong style="color: rgb(255, 0, 0);">“GIỎ HÀNG”</strong> sẽ hiện ra danh sách và số lượng sản phẩm vừa chọn trong giỏ hàng.</p>
+            <p>– Khách hàng nhấn nút <strong style="color: rgb(255, 0, 0);">“CẬP NHẬT”</strong> để cập nhật lại số lượng và tổng tiền đơn hàng.</p>
+            <p>– Khách hàng nhấn nút <strong style="color: rgb(255, 0, 0);">“MUA NGAY”</strong> để thực hiện bước kế tiếp.</p>
+
+            <p><strong style="color: rgb(0, 0, 255);">3. Cung cấp thông tin giao hàng.</strong></p>
+            <p>– Khách hàng điền đầy đủ thông tin vào các ô.</p>
+            <p>– Phần ghi chú cho đơn hàng nếu quý khách có những ghi chú đặc biệt trên đơn hàng (ví dụ: Thời gian giao hàng, giao cho cá nhân nào?)</p>
+            <p>– Khách hàng lưu ý ghi rõ, cụ thể thông tin để chúng tôi vận chuyển hàng được nhanh nhất.</p>
+
+            <p><strong style="color: rgb(0, 0, 255);">4. Chọn hình thức vận chuyển và thanh toán đơn hàng.</strong></p>
+            <p><strong style="color: rgb(0, 0, 255);">A. Hình thức vận chuyển:</strong></p>
+            <p>
+                &nbsp;Khách hàng lựa chọn hình thức vận chuyển dựa trên khu vực và thời gian mong muốn nhận hàng.
+                <strong style="color: #009600;">HaNoiBookStore.</strong><strong style="color: #ff9900;">com</strong>
+                &nbsp; áp dụng 2 hình thức vận chuyển:
+                <strong style="color: rgb(255, 0, 0);">GỬI NHANH</strong>
+                và
+                <strong style="color: rgb(255, 0, 0);">GỬI THƯỜNG</strong>
+            </p>
+            <p><strong style="color: rgb(0, 0, 255);;">B. Hình thức thanh toán:</strong></p>
+            <p>
+                <strong style="color: #009600;">HaNoiBookStore.</strong><strong style="color: #ff9900;">com</strong>
+                <strong style="font-family: HelveticaNeue; line-height: 1.5; margin: 0px;">áp dụng 2 hình thức thanh toán: </strong>
+                <strong style="color: rgb(255, 0, 0);">Thanh toán trực tiếp</strong>
+                <strong style="font-family: HelveticaNeue; line-height: 1.5; margin: 0px;">khi nhận hàng (COD) &nbsp;và </strong>
+                <strong style="color: rgb(255, 0, 0);">thanh toán qua ngân hàng.</strong>
+            </p>
+
+            <p><strong style="color: rgb(0, 0, 255);">5. Xác nhận đơn đặt hàng.</strong></p>
+            <p>
+                Quý khách kiểm tra lại
+                <strong style="color: rgb(255, 0, 0);">“Địa chỉ thanh toán”</strong>,
+                <strong style="color: rgb(255, 0, 0);">“Địa chỉ giao hàng”</strong>,
+                <strong style="color: rgb(255, 0, 0);">“Số tiền trên đơn hàng”</strong>, nếu các thông tin đã khớp xin vui lòng nhấn nút
+                <strong style="color: rgb(255, 0, 0);">“GỬI ĐƠN HÀNG”</strong>
+                để xác nhận đặt hàng.
+            </p>
+            <p>
+                Lưu ý:
+                <em>Chúng tôi căn cứ vào </em>
+                <strong style="color: rgb(255, 0, 0);">Tên sách</strong>
+                <em>và/hoặc </em>
+                <strong style="color: rgb(255, 0, 0);">Mã sách</strong>
+                <em>để làm cơ sở cho việc giao nhận sách đúng chủng loại.</em>
+            </p>
+
+            <p><strong style="font-family: HelveticaNeue; line-height: 1.5; margin: 0px;">Trân trọng cám ơn Qúy Khách!</strong></p>
+        </div>
+    </section>
+</div>

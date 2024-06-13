@@ -1,0 +1,234 @@
+﻿/*Color*/
+
+.text-gray-300 {
+    color: #d0d5dd;
+}
+
+.text-gray-500 {
+    color: #344054;
+}
+
+.text-gray-900 {
+    color: #101828;
+}
+
+.text-primary-dark {
+    color: #0e4f4f !important;
+}
+
+.color-grey {
+    color: #4f5d77;
+}
+
+.bg-grey-9 {
+    background-color: #F4F5F9;
+}
+
+.text-success {
+    color: #3ED092 !important;
+}
+
+.text-brand {
+    color: #0361A9;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+
+/*Font*/
+.font-xs {
+    font-size: 12px;
+}
+
+.font-xl {
+    font-size: 16px;
+}
+
+
+.fz-30 {
+    font-size: 30px;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+
+/*Height*/
+.height-96 {
+    height: 6rem !important;
+}
+
+
+/*Width*/
+
+.width-156 {
+    width: 9.75rem !important;
+}
+
+.w-218 {
+    width: 13.625rem !important
+}
+
+.mw-25 {
+    max-width: 25%;
+}
+
+
+/*Padding*/
+
+.p-20 {
+    padding: 1.25rem !important;
+}
+
+.p-30 {
+    padding: 1.875rem;
+}
+
+.pt-6 {
+    padding-top: 4rem !important;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pt-40 {
+    padding-top: 2.5rem;
+}
+
+.pb-30 {
+    padding-bottom: 1.875rem;
+}
+
+.pt-52 {
+    padding-top: 3.25rem;
+}
+
+.pb-100 {
+    padding-bottom: 6.25rem;
+}
+/*Margin*/
+.mt-20 {
+    margin-top: 1.25rem;
+}
+
+.mb-20 {
+    margin-bottom: 1.25rem;
+}
+
+.mb-10 {
+    margin-bottom: 0.625rem;
+}
+
+.mb-30 {
+    margin-bottom: 1.875rem;
+}
+
+.mt-96 {
+    margin-top: 6rem !important;
+}
+
+.ml-7 {
+    margin-left: 0.4375rem;
+}
+
+.mr-10 {
+    margin-right: 0.6rem;
+}
+
+.mr-15 {
+    margin-right: 0.9375rem;
+}
+
+.mt-10 {
+    margin-top: 0.625rem;
+}
+
+.mb-5 {
+    margin-bottom: 0.3125rem !important;
+}
+
+.mb-25 {
+    margin-bottom: 1.5625rem;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-60 {
+    margin-bottom: 5rem !important;
+}
+
+.mt-60 {
+    margin-top: 5rem !important;
+}
+
+/*Gap*/
+.gap-12 {
+    gap: 0.75rem;
+}
+
+.gap-16 {
+    gap: 1rem !important;
+}
+
+.gap-20 {
+    gap: 1.25rem !important;
+}
+
+.gap-24 {
+    gap: 1.5rem !important;
+}
+
+.gap-32 {
+    gap: 2rem !important;
+}
+
+.gap-40 {
+    gap: 2.5rem !important;
+}
+
+/*Section*/
+
+.section-padding-60 {
+    padding: 2.5rem 0;
+}
+
+/*Border radius*/
+
+.border-radius-10 {
+    border-radius: 10px;
+}
+
+.border-radius-50 {
+    border-radius: 50px;
+}
+
+small {
+    font-size: 80%;
+}
+
+
+@media (max-width: 768px) {
+    .sm-gap-12 {
+        gap: 0.75rem !important;
+    }
+
+    .sm-mt-12 {
+        margin-top: 1.5rem !important;
+    }
+
+    .sm-flex-col {
+        flex-direction: column;
+    }
+
+
+}

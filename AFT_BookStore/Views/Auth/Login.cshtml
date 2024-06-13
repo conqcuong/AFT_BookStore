@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+}
+
+@section Styles {
+    <link href="~/css/auth.css" rel="stylesheet" asp-append-version="true" />
+}
+
+<!-- Page Preloder -->
+<div id="preloder">
+    <div class="loader"></div>
+</div>
+
+<div class="page-header">
+    <div class="container">
+        <nav class="breadcrumb">
+            <a href="#">Trang Chủ</a>
+            <span> > </span>
+            <span>Đăng Nhập</span>
+        </nav>
+    </div>
+</div>
+
+<section class="pt-52 pb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 m-auto">
+                <div class="login_wrap widget-taber-content p-30 background-white border-radius-10">
+                    <div class="padding_eight_all bg-white">
+                        <div class="heading_s1 mb-20">
+                            <h3 class="mb-20">Đăng nhập</h3>
+                            <p>Vui lòng nhập email và mật khẩu</p>
+                        </div>
+                        <form method="post" action="" class="form--auth form--login">
+                            <div class="form__content">
+                                <div class="form-group">
+                                    <label for="txt-email" class="required">Địa chỉ email</label>
+                                    <input class="form-control" type="email" name="email" value="" placeholder="Vui lòng nhập địa chỉ email của bạn" id="txt-email" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="txt-password" class="required">Mật khẩu</label>
+                                    <input class="form-control" type="email" name="email" value="" placeholder="Vui lòng nhập mật khẩu" id="txt-email" />
+                                </div>
+                                <div class="login_footer form-group text-end">
+                                    <a href="#">Quên mật khẩu?</a>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn button_button-color button_button-sm" type="submit">
+                                    Đăng nhập
+                                </button>
+                            </div>
+                            <br />
+                            <p>Không có tài khoản? <a href="/dang-ky" class="d-inline-block">Tạo một tài khoản</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

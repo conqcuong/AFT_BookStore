@@ -1,0 +1,131 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AFT_BookStore
+build_property.RootNamespace = AFT_BookStore
+build_property.ProjectDir = D:\ASP\AFT_BookStore\AFT_BookStore\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\ASP\AFT_BookStore\AFT_BookStore
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Home/Banner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCYW5uZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Home/Featured.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGZWF0dXJlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Home/FeaturedProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGZWF0dXJlZFByb2R1Y3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Home/Posts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb3N0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Home/Product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Home/Slide.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTbGlkZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Order/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Order/OrderingGuide.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJpbmdHdWlkZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Order/ShippingInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcU2hpcHBpbmdJbmZvcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Posts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Product/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Product/Featured.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxGZWF0dXJlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Product/PageHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQYWdlSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Product/Relate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxSZWxhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Shop/Featured.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxGZWF0dXJlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Shop/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Shop/ListProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxMaXN0UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Shop/PageHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxQYWdlSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP/AFT_BookStore/AFT_BookStore/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-sbzx32qb2p
