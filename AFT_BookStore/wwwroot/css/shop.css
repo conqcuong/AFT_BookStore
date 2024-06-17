@@ -298,3 +298,31 @@
                     position: absolute;
                     top: 5px;
                 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .detail-extralink {
+        align-items: start !important;
+    }
+
+    .sm-flex-direction {
+        flex-direction: column;
+    }
+
+    .list_product {
+        width: 100% !important;
+    }
+
+    .shop-product-filter {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .sm-justify-center {
+        justify-content: center;
+    }
+
+    .list_smnb {
+        width: 100% !important;
+    }
+}

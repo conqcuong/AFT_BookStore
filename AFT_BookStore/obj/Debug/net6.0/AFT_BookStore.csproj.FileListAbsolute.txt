@@ -223,3 +223,4 @@ D:\ASP\AFT_BookStore\AFT_BookStore\bin\Debug\net6.0\runtimes\win\lib\net6.0\Syst
 D:\ASP\AFT_BookStore\AFT_BookStore\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\ASP\AFT_BookStore\AFT_BookStore\obj\Debug\net6.0\AFT_BookStore.csproj.AssemblyReference.cache
 D:\ASP\AFT_BookStore\AFT_BookStore\obj\Debug\net6.0\AFT_Book.46E65F6B.Up2Date
+D:\ASP\AFT_BookStore\AFT_BookStore\obj\Debug\net6.0\AFT_BookStore.sourcelink.json

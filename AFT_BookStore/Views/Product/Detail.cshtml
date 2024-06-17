@@ -38,10 +38,10 @@
                                 </div>
                             </div>
                             <div>
-                                <a href="" class="btn border rounded-pill px-4 py-2 button_button-color" id="add-to-cart-btn button_button-color">
+                                <a href="#" class="btn border rounded-pill px-4 py-2 button_button-color" id="add-to-cart-btn">
                                     Thêm vào giỏ
                                 </a>
-                                <a href="/gio-hang" class="btn border rounded-pill px-4 py-2 button_button-color" id="add-to-cart-btn">
+                                <a href="/gio-hang" class="btn border rounded-pill px-4 py-2 button_button-color">
                                     Mua ngay
                                 </a>
                             </div>
@@ -49,19 +49,18 @@
                         <ul class="product-meta">
                             <li><span>Tình trạng: </span><span class="in-stock text-success ml-5">Còn hàng</span></li>
                         </ul>
-
                     </div>
                     <div class="col-lg-12">
                         <nav>
                             <div class="nav nav-tabs mb-3 gap-24">
                                 <a class="nav-link active border-white border-bottom-0" type="button" role="tab"
-                                        id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#nav-about"
-                                        aria-controls="nav-about" aria-selected="true">
+                                   id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#nav-about"
+                                   aria-controls="nav-about" aria-selected="true">
                                     Description
                                 </a>
                                 <a class="nav-link border-white border-bottom-0" type="button" role="tab"
-                                        id="nav-mission-tab" data-bs-toggle="tab" data-bs-target="#nav-mission"
-                                        aria-controls="nav-mission" aria-selected="false">
+                                   id="nav-mission-tab" data-bs-toggle="tab" data-bs-target="#nav-mission"
+                                   aria-controls="nav-mission" aria-selected="false">
                                     Reviews
                                 </a>
                             </div>
@@ -186,3 +185,15 @@
         </div>
     </div>
 </section>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const addToCartBtn = document.getElementById('add-to-cart-btn');
+
+        addToCartBtn.addEventListener('click', function (event) {
+            event.preventDefault();
+            toastr.success('Thêm vào thành công');
+        });
+    });
+</script>

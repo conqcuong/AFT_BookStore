@@ -533,6 +533,15 @@ button {
     .breadcrumb {
         font-size: 14px;
     }
+
+    .sm-header-active {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .sm-text-center {
+        text-align: center;
+    }
 }
 
 
