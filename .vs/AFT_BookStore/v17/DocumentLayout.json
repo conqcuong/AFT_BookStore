@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ASP\\AFT_BookStore\\",
+  "WorkspaceRootPath": "D:\\HoCongCuong\\ASP\\AFT_BookStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBA8C098-9C25-4D44-8BD0-651B8ACB07D3}|AFT_BookStore\\AFT_BookStore.csproj|d:\\asp\\aft_bookstore\\aft_bookstore\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FBA8C098-9C25-4D44-8BD0-651B8ACB07D3}|AFT_BookStore\\AFT_BookStore.csproj|d:\\hocongcuong\\asp\\aft_bookstore\\aft_bookstore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBA8C098-9C25-4D44-8BD0-651B8ACB07D3}|AFT_BookStore\\AFT_BookStore.csproj|solutionrelative:aft_bookstore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBA8C098-9C25-4D44-8BD0-651B8ACB07D3}|AFT_BookStore\\AFT_BookStore.csproj|d:\\hocongcuong\\asp\\aft_bookstore\\aft_bookstore\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FBA8C098-9C25-4D44-8BD0-651B8ACB07D3}|AFT_BookStore\\AFT_BookStore.csproj|solutionrelative:aft_bookstore\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBA8C098-9C25-4D44-8BD0-651B8ACB07D3}|AFT_BookStore\\AFT_BookStore.csproj|d:\\asp\\aft_bookstore\\aft_bookstore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{FBA8C098-9C25-4D44-8BD0-651B8ACB07D3}|AFT_BookStore\\AFT_BookStore.csproj|d:\\hocongcuong\\asp\\aft_bookstore\\aft_bookstore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{FBA8C098-9C25-4D44-8BD0-651B8ACB07D3}|AFT_BookStore\\AFT_BookStore.csproj|solutionrelative:aft_bookstore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBA8C098-9C25-4D44-8BD0-651B8ACB07D3}|AFT_BookStore\\AFT_BookStore.csproj|d:\\asp\\aft_bookstore\\aft_bookstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FBA8C098-9C25-4D44-8BD0-651B8ACB07D3}|AFT_BookStore\\AFT_BookStore.csproj|d:\\hocongcuong\\asp\\aft_bookstore\\aft_bookstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FBA8C098-9C25-4D44-8BD0-651B8ACB07D3}|AFT_BookStore\\AFT_BookStore.csproj|solutionrelative:aft_bookstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -22,46 +26,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\HoCongCuong\\ASP\\AFT_BookStore\\AFT_BookStore\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AFT_BookStore\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\HoCongCuong\\ASP\\AFT_BookStore\\AFT_BookStore\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AFT_BookStore\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T03:06:10.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Contact.cshtml",
-              "DocumentMoniker": "D:\\ASP\\AFT_BookStore\\AFT_BookStore\\Views\\Home\\Contact.cshtml",
+              "DocumentMoniker": "D:\\HoCongCuong\\ASP\\AFT_BookStore\\AFT_BookStore\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "AFT_BookStore\\Views\\Home\\Contact.cshtml",
-              "ToolTip": "D:\\ASP\\AFT_BookStore\\AFT_BookStore\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\HoCongCuong\\ASP\\AFT_BookStore\\AFT_BookStore\\Views\\Home\\Contact.cshtml",
               "RelativeToolTip": "AFT_BookStore\\Views\\Home\\Contact.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAABCAAAA",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-17T14:32:04.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "site.css",
-              "DocumentMoniker": "D:\\ASP\\AFT_BookStore\\AFT_BookStore\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "D:\\HoCongCuong\\ASP\\AFT_BookStore\\AFT_BookStore\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "AFT_BookStore\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\ASP\\AFT_BookStore\\AFT_BookStore\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\HoCongCuong\\ASP\\AFT_BookStore\\AFT_BookStore\\wwwroot\\css\\site.css",
               "RelativeToolTip": "AFT_BookStore\\wwwroot\\css\\site.css",
               "ViewState": "AQIAAA4CAAAAAAAAAAAAAB8CAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-17T14:26:21.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T14:26:21.206Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\ASP\\AFT_BookStore\\AFT_BookStore\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\HoCongCuong\\ASP\\AFT_BookStore\\AFT_BookStore\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "AFT_BookStore\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\ASP\\AFT_BookStore\\AFT_BookStore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\HoCongCuong\\ASP\\AFT_BookStore\\AFT_BookStore\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "AFT_BookStore\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAACwAAAAAAAAAAAAowD8AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-17T14:24:42.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T14:24:42.264Z"
             }
           ]
         }
